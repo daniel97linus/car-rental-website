@@ -1,0 +1,266 @@
+body {
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    text-align: right;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    background-color: #f3f5f8;
+    color: #263238;
+}
+
+#page {
+    width: 90%;
+    max-width: 1100px;
+    margin: 25px auto;
+    background-color: #ffffff;
+    border: 1px solid #dfe4ea;
+}
+
+#header {
+    padding: 25px;
+    background-color: #17324d;
+    color: #ffffff;
+}
+
+#header h1 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+
+#header p {
+    margin-bottom: 0;
+}
+
+#navigation {
+    padding: 10px 20px;
+    background-color: #254d70;
+}
+
+#navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#navigation li {
+    display: inline-block;
+    margin-left: 8px;
+}
+
+#navigation a {
+    display: inline-block;
+    padding: 8px 16px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+#navigation a:hover {
+    background-color: #e09f3e;
+    color: #17324d;
+}
+
+#main-content {
+    padding: 25px;
+}
+
+h2 {
+    color: #17324d;
+    font-size: 23px;
+}
+
+a {
+    color: #1769aa;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #cbd3dc;
+    padding: 10px;
+    text-align: right;
+}
+
+th {
+    background-color: #e7edf3;
+}
+
+#footer {
+    padding: 15px 25px;
+    background-color: #17324d;
+    color: #ffffff;
+    text-align: center;
+}
+
+#footer p {
+    margin: 0;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #dfe4ea;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.branch-card {
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #dfe4ea;
+    border-right: 4px solid #254d70;
+    background-color: #f8fafc;
+}
+
+.branch-card h3 {
+    margin-top: 0;
+    color: #17324d;
+    font-size: 20px;
+}
+
+.branch-card p {
+    margin-bottom: 5px;
+}
+
+.car-details {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #dfe4ea;
+    border-radius: 5px;
+    background-color: #f8fafc;
+    min-width: 150px;
+}
+
+.car-details p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.details-button {
+    padding: 7px 12px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #254d70;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.details-button:hover {
+    background-color: #e09f3e;
+    color: #17324d;
+}
+
+#booking-section {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #dfe4ea;
+    border-right: 4px solid #254d70;
+    background-color: #f8fafc;
+}
+
+#booking-section h3 {
+    color: #17324d;
+}
+
+#booking-form p {
+    margin-bottom: 18px;
+}
+
+#booking-form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+#booking-form input {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 450px;
+    padding: 10px;
+    border: 1px solid #cbd3dc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+#continue-button,
+#send-button {
+    padding: 10px 18px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #254d70;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#continue-button:hover,
+#send-button:hover {
+    background-color: #e09f3e;
+    color: #17324d;
+}
+
+#booking-result {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #cbd3dc;
+    background-color: #ffffff;
+}
+
+#booking-result {
+    margin-top: 25px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #d6dce2;
+    border-radius: 8px;
+    overflow-x: auto;
+}
+
+#booking-result h2 {
+    color: #17324d;
+    margin-top: 0;
+}
+
+#booking-result h3 {
+    color: #198754;
+    padding: 12px;
+    background-color: #eaf7ef;
+    border-radius: 6px;
+}
+
+#booking-result p {
+    line-height: 1.8;
+}
+
+#booking-result table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+#booking-result th,
+#booking-result td {
+    border: 1px solid #d6dce2;
+    padding: 10px;
+    text-align: center;
+}
+
+#booking-result th {
+    background-color: #17324d;
+    color: #ffffff;
+}
+
+#booking-result tr:nth-child(even) {
+    background-color: #f2f5f8;
+}
